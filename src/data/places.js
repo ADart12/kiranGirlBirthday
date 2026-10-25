@@ -30,7 +30,7 @@ export const specialPlaces = [
     tagline: "Green trails & shared secrets",
     date: "A refreshing evening",
     description: "Walking down tree-lined paths, talking about anything and everything, kicking fallen leaves, and laughing at little observations.",
-    photo: "/images/WhatsApp Image 2026-10-25 at 4.50.38 PM.jpeg",
+    photo: "/images/4.jpeg",
     pinX: 45,
     pinY: 60,
     mood: "Tranquil 🍃"

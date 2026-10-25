@@ -6,7 +6,7 @@ export const config = {
 
   // Dates (Configurable placeholders as per readme)
   // Format: YYYY-MM-DD or ISO timestamp
-  specialDate: "2024-01-14T00:00:00", // Start of journey / special connection
+  specialDate: "2023-04-15T00:00:00", // 15/04/2023 - Start of journey
   specialDateLabel: "Days of Us Being Us",
   birthdayDate: "2026-10-25", // Birthday date
 

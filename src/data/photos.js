@@ -1,5 +1,5 @@
 // Real couple photos of Kiran & Anu from public/images
-// Prioritizing all olive-named images and priotity.jpeg, while including all 18 photos!
+// Prioritizing all olive-named images and priotity.jpeg, with updated clean filenames!
 
 export const allPhotos = [
   // --- HIGHEST PRIORITY: Olive & Priority Photos ---
@@ -74,10 +74,10 @@ export const allPhotos = [
     badge: "Olive Special ⭐"
   },
 
-  // --- Other Beautiful Real Memories (All 18 Included) ---
+  // --- All Other Real Couple Photos (1.jpeg through 11.jpeg and 312.jpeg) ---
   {
     id: 8,
-    url: "/images/WhatsApp Image 2026-10-25 at 4.50.33 PM.jpeg",
+    url: "/images/1.jpeg",
     title: "In the Frame",
     caption: "My favorite kind of happiness is the kind that has you in the frame. ❤️",
     date: "First smile of the day",
@@ -85,7 +85,7 @@ export const allPhotos = [
   },
   {
     id: 9,
-    url: "/images/WhatsApp Image 2026-10-25 at 4.50.36 PM.jpeg",
+    url: "/images/2.jpeg",
     title: "Beautiful Company",
     caption: "Ordinary moments, your beautiful company, and a memory I'd choose to live again. 🤍",
     date: "Simple bliss",
@@ -93,7 +93,7 @@ export const allPhotos = [
   },
   {
     id: 10,
-    url: "/images/WhatsApp Image 2026-10-25 at 4.50.36 PM1.jpeg",
+    url: "/images/3.jpeg",
     title: "Always Grateful",
     caption: "One day, we'll laugh about the little things we did, and I'll still be grateful that I got to make those memories with you. ❤️",
     date: "Forever grateful",
@@ -101,7 +101,7 @@ export const allPhotos = [
   },
   {
     id: 11,
-    url: "/images/WhatsApp Image 2026-10-25 at 4.50.38 PM.jpeg",
+    url: "/images/4.jpeg",
     title: "Cozy Afternoon",
     caption: "That calm, comfortable feeling when everything feels just right with you. 🌸",
     date: "Peaceful time",
@@ -109,7 +109,7 @@ export const allPhotos = [
   },
   {
     id: 12,
-    url: "/images/WhatsApp Image 2026-10-25 at 4.50.40 PM.jpeg",
+    url: "/images/5.jpeg",
     title: "Fit of Laughter",
     caption: "Pure, unfiltered joy that makes our hearts feel lighter. ✨",
     date: "Shared laughter",
@@ -117,7 +117,7 @@ export const allPhotos = [
   },
   {
     id: 13,
-    url: "/images/WhatsApp Image 2026-10-25 at 4.50.41 PM.jpeg",
+    url: "/images/6.jpeg",
     title: "Candid Moments",
     caption: "Unrehearsed smiles that become unforgettable memories. 🌷",
     date: "Candid snapshot",
@@ -125,7 +125,7 @@ export const allPhotos = [
   },
   {
     id: 14,
-    url: "/images/WhatsApp Image 2026-10-25 at 4.50.41 PM1212.jpeg",
+    url: "/images/7.jpeg",
     title: "Joyful Glance",
     caption: "The way you look when you're genuinely happy is my favorite sight. 💫",
     date: "Sunlit hours",
@@ -133,7 +133,7 @@ export const allPhotos = [
   },
   {
     id: 15,
-    url: "/images/WhatsApp Image 2026-10-25 at 4.51.25 PM.jpeg",
+    url: "/images/8.jpeg",
     title: "Starlit Night",
     caption: "Talking about everything under the open sky. 🌙",
     date: "Evening breeze",
@@ -141,7 +141,7 @@ export const allPhotos = [
   },
   {
     id: 16,
-    url: "/images/WhatsApp Image 2026-10-25 at 4.51.26 PM.jpeg",
+    url: "/images/9.jpeg",
     title: "Walking Together",
     caption: "Hand in hand, stepping into whatever tomorrow holds. 🥂",
     date: "Step by step",
@@ -149,7 +149,7 @@ export const allPhotos = [
   },
   {
     id: 17,
-    url: "/images/WhatsApp Image 2026-10-25 at 4.51.27 PM.jpeg",
+    url: "/images/11.jpeg",
     title: "Future Dreams",
     caption: "To all the adventures waiting ahead for us to experience together. ✈️",
     date: "Endless adventures",
@@ -165,6 +165,6 @@ export const allPhotos = [
   }
 ];
 
-// Top 10 Featured Photos for Quick View (Top 7 Olive/Priority + 3 Highlights)
+// Quick collections
 export const featuredPhotos = allPhotos.slice(0, 10);
 export const olivePhotos = allPhotos.filter(p => p.isOlive);

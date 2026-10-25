@@ -6,7 +6,7 @@ export const timelineStory = [
     id: 1,
     category: "The Beginning",
     title: "Our First Meeting",
-    date: "A day marked in the stars",
+    date: "April 15, 2023",
     description: "The very first time our paths crossed. Who would have known that a simple glance and an introduction would lead to a story so full of warmth and laughter?",
     photo: "/images/olive.jpeg",
     icon: "Sparkles",

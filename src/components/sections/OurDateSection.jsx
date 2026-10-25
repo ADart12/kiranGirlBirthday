@@ -16,7 +16,11 @@ import { sound } from '../../utils/soundEffects';
 export default function OurDateSection({ onNext }) {
   // Configurable date stored in state / localStorage
   const [startDateStr, setStartDateStr] = useState(() => {
-    return localStorage.getItem('romantic_special_date') || config.specialDate;
+    const saved = localStorage.getItem('romantic_special_date');
+    if (saved && !saved.includes('2024-01-14')) {
+      return saved;
+    }
+    return config.specialDate;
   });
 
   const [isEditing, setIsEditing] = useState(false);
